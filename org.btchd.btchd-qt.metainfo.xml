@@ -7,15 +7,10 @@
   <summary>
     Connect to the BitcoinHD P2P network
   </summary>
-  <url type="homepage">
-    https://btchd.org/
-  </url>
-  <url type="bugtracker">
-    https://github.com/btchd/btchd/issues/new?title=[flatpak]
-  </url>
-  <launchable type="desktop-id">
-    org.btchd.btchd-qt.desktop
-  </launchable>
+  <url type="homepage">https://btchd.org/</url>
+  <url type="bugtracker">https://github.com/btchd/btchd/issues/new?title=[flatpak]</url>
+  <url type="vcs-browser">https://github.com/btchd/btchd</url>
+  <launchable type="desktop-id">org.btchd.btchd-qt.desktop</launchable>
   <description>
     <p>
     BitcoinHD is an experimental digital currency that enables instant
@@ -30,7 +25,7 @@
     </p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">
         https://user-images.githubusercontent.com/29379327/118376333-6db0f400-b595-11eb-9898-cf8165edf212.png
       </image>
@@ -41,5 +36,4 @@
   </releases>
   <content_rating type="oars-1.1"/>
   <developer_name>BitcoinHD Core</developer_name>
-
 </component>
